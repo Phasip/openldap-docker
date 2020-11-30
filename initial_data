@@ -1,0 +1,23 @@
+dn: dc=example,dc=org
+objectClass: dcObject
+objectClass: organization
+dc: example
+o: example
+structuralObjectClass: organization
+entryUUID: a038cc5e-8b9a-103a-9d0a-6b7c52ba3a9a
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20200915122755Z
+entryCSN: 20200915122755.351935Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20200915122755Z
+
+dn: ou=users,dc=example,dc=org
+objectClass: organizationalUnit
+ou: users
+structuralObjectClass: organizationalUnit
+entryUUID: a0392424-8b9a-103a-9d0b-6b7c52ba3a9a
+creatorsName: cn=admin,dc=example,dc=org
+createTimestamp: 20200915122755Z
+entryCSN: 20200915122755.354183Z#000000#000#000000
+modifiersName: cn=admin,dc=example,dc=org
+modifyTimestamp: 20200915122755Z
