@@ -1,0 +1,10 @@
+include         /usr/local/etc/openldap/schema/core.schema
+pidfile         /usr/local/var/run/slapd.pid
+argsfile        /usr/local/var/run/slapd.args
+database        mdb
+maxsize         1073741824
+suffix          "dc=example,dc=org"
+rootdn          "cn=Manager,dc=example,dc=org"
+rootpw          secret
+directory       /usr/local/var/openldap-data
+index   objectClass     eq
