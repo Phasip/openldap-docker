@@ -2,7 +2,7 @@ FROM ubuntu:latest
 # docker run -it --net=host phasip/openldap
 ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /
-RUN apt-get update && apt-get install -y git build-essential libltdl-dev groff-base file
+RUN apt-get update && apt-get install -y git build-essential libltdl-dev groff-base file gdb
 RUN git clone https://github.com/openldap/openldap.git
 ENV CC=gcc
 ENV CFLAGS='-Og -g'
